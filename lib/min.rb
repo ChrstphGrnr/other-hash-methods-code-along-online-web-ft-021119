@@ -12,6 +12,6 @@ def get_the_min(groceries)
   groceries_min = ""
   groceries.values.each do |words|
     groceries_min << words.min 
-    groceries_min.min
+    groceries_min
   end
 end
